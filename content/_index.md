@@ -16,7 +16,7 @@ layout: landing
 </div>
 
 <div class="mb-6">
-{{< hextra/hero-button text="Get Started" link="docs/getting-started" />}}
+<a href="docs/getting-started" class="hextra-hero-button">Get Started</a>
 </div>
 
 <div class="mt-6"></div>
