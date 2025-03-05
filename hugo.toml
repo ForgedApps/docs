@@ -1,0 +1,3 @@
+baseURL = 'https://docs.forgedapps.com/'
+languageCode = 'en-us'
+title = 'Forged Apps Documentation'
