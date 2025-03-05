@@ -16,7 +16,7 @@ layout: landing
 </div>
 
 <div class="mb-6">
-{{< hextra/hero-button text="Get Started" link="docs/getting-started" >}}
+{{< hextra/hero-button text="Get Started" link="docs/getting-started" />}}
 </div>
 
 <div class="mt-6"></div>
@@ -29,7 +29,7 @@ layout: landing
     image="images/radar-visualization.png"
     imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
-  >}}
+  />
 
   {{< hextra/feature-card
     title="Track Technology Evolution"
@@ -38,7 +38,7 @@ layout: landing
     image="images/technology-tracking.png"
     imageClass="top-[40%] left-[36px] w-[180%] sm:w-[110%] dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
-  >}}
+  />
 
   {{< hextra/feature-card
     title="Customizable Interface"
@@ -47,7 +47,7 @@ layout: landing
     image="images/customization.png"
     imageClass="top-[40%] left-[36px] w-[110%] sm:w-[110%] dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
-  >}}
+  />
 
   {{< hextra/feature-card
     title="Powerful Admin Interface"
@@ -56,7 +56,7 @@ layout: landing
     image="images/admin-interface.png"
     imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
-  >}}
+  />
 {{< /hextra/feature-grid >}}
 
 ## Based on AOE Technology Radar
