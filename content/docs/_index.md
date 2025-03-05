@@ -25,29 +25,15 @@ A Technology Radar is a visualization tool that helps organizations track and co
 This documentation is organized into several sections:
 
 {{< cards >}}
-  {{< card link="getting-started" title="Getting Started" icon="rocket-launch" >}}
-    Installation and basic setup instructions
-  {{< /card >}}
-  
-  {{< card link="user-guide" title="User Guide" icon="user" >}}
-    How to use the radar as an end user
-  {{< /card >}}
-  
-  {{< card link="admin-guide" title="Admin Guide" icon="cog-6-tooth" >}}
-    How to configure and manage the radar
-  {{< /card >}}
-  
-  {{< card link="customization" title="Customization" icon="adjustments-horizontal" >}}
-    Advanced customization options
-  {{< /card >}}
+{{< card link="getting-started" title="Getting Started" icon="rocket-launch" >}}
+Installation and basic setup instructions
+{{< /card >}}
+
+{{< card link="user-guide" title="User Guide" icon="user" >}}
+How to use the radar as an end user
+{{< /card >}}
+
+{{< card link="admin-guide" title="Admin Guide" icon="cog-6-tooth" >}}
+How to configure and manage the radar
+{{< /card >}}
 {{< /cards >}}
-
-```go {filename="main.go"}
-package main
-
-import "fmt"
-
-func main() {
-    fmt.Println("Hello, World!")
-}
-```

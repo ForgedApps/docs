@@ -81,24 +81,29 @@ The Tech Radar for Compass extends the AOE Technology Radar with additional feat
 Ready to create your own technology radar? Follow our [Getting Started](docs/getting-started/) guide to set up your radar in minutes.
 
 {{< cards >}}
-  {{< card link="docs/getting-started" title="Getting Started" icon="rocket-launch" >}}
-    Installation and basic setup instructions
-  {{< /card >}}
-  
-  {{< card link="docs/user-guide" title="User Guide" icon="user" >}}
-    How to use the radar as an end user
-  {{< /card >}}
-  
-  {{< card link="docs/admin-guide" title="Admin Guide" icon="cog-6-tooth" >}}
-    How to configure and manage the radar
-  {{< /card >}}
+{{< card link="docs/getting-started" title="Getting Started" icon="rocket-launch" >}}
+Installation and basic setup instructions
+{{< /card >}}
+
+{{< card link="docs/user-guide" title="User Guide" icon="user" >}}
+How to use the radar as an end user
+{{< /card >}}
+
+{{< card link="docs/admin-guide" title="Admin Guide" icon="cog-6-tooth" >}}
+How to configure and manage the radar
+{{< /card >}}
 {{< /cards >}}
 
 ## Explore
 
 {{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
+{{< card link="docs" title="Docs" icon="book-open" >}}
+Documentation
+{{< /card >}}
+
+{{< card link="about" title="About" icon="user" >}}
+About Tech Radar for Compass
+{{< /card >}}
 {{< /cards >}}
 
 ## Documentation

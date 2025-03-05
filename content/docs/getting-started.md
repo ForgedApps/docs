@@ -84,5 +84,4 @@ Once you've completed the basic setup, you can:
 
 - [Configure the radar quadrants and rings](/docs/admin-guide/configuration/)
 - [Add technology items](/docs/admin-guide/managing-items/)
-- [Customize the appearance](/docs/customization/)
-- [Integrate with Atlassian Compass](/docs/admin-guide/compass-integration/) 
+- [Customize the appearance](/docs/admin-guide/customization/) 
