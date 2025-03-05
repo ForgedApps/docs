@@ -9,12 +9,14 @@ This section covers how to administer and configure the Tech Radar for Compass. 
 
 ## What You'll Learn
 
-- [Settings Page Overview](settings-page-overview): A comprehensive overview of the Settings Page and its functionality
-- [Configuration](configuration): How to configure the radar's basic settings, quadrants, rings, and more
-- [Quadrants & Rings](quadrants-and-rings): How to configure the fundamental organizing structures of the radar
-- [Status Flags](status-flags): How to configure status flags to indicate item states
-- [Feature Toggles](feature-toggles): How to enable or disable specific features of the radar
-- [Managing Items](managing-items): How to add, edit, and manage technology items on the radar
-- [Visual Customization](customization): How to customize the radar's appearance, colors, and branding
-- [Import & Export](import-export): How to import and export radar data
-- [Summary](summary): A summary of what we've learned about the Tech Radar for Compass 
+{{< cards >}}
+  {{< card link="settings-page-overview" title="Settings Page Overview" icon="dots-horizontal" >}}
+  {{< card link="configuration" title="Configuration" icon="cog" >}}
+  {{< card link="quadrants-and-rings" title="Quadrants & Rings" icon="chart-pie" >}}
+  {{< card link="status-flags" title="Status Flags" icon="flag" >}}
+  {{< card link="feature-toggles" title="Feature Toggles" icon="switch-horizontal" >}}
+  {{< card link="managing-items" title="Managing Items" icon="document-add" >}}
+  {{< card link="customization" title="Visual Customization" icon="play" >}}
+  {{< card link="import-export" title="Import & Export" icon="arrow-right" >}}
+  {{< card link="summary" title="Summary" icon="document-text" >}}
+{{< /cards >}} 

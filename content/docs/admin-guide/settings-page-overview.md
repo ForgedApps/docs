@@ -15,10 +15,12 @@ The Settings Page is accessible from the admin interface and allows you to custo
 
 The Settings Page is organized into several sections, each controlling different aspects of the radar:
 
-- **Display Settings**: Control how the radar is displayed to users
-- **Content Settings**: Configure the content displayed on the radar
-- **Logo Settings**: Customize the logo and branding
-- **Chart Data**: Import and export radar data
+{{< cards >}}
+  {{< card link="#display-settings" title="Display Settings" icon="eye" >}}
+  {{< card link="#content-settings" title="Content Settings" icon="document-text" >}}
+  {{< card link="#logo-settings" title="Logo Settings" icon="star" >}}
+  {{< card link="#chart-data" title="Chart Data" icon="chart-pie" >}}
+{{< /cards >}}
 
 ## Configuration Data Structure
 
@@ -57,7 +59,7 @@ All changes are saved automatically as you make them. There's no need to click a
 
 The Settings Page is composed of several key components:
 
-### Display Settings
+### Display Settings {#display-settings}
 
 The Display Settings section allows you to control how the radar is displayed to users:
 
@@ -65,7 +67,7 @@ The Display Settings section allows you to control how the radar is displayed to
 - **Section Order**: Rearrange the order of sections on the main page using drag-and-drop
 - **Quadrant Order**: Rearrange the order of quadrants using drag-and-drop
 
-### Content Settings
+### Content Settings {#content-settings}
 
 The Content Settings section allows you to configure the content displayed on the radar:
 
@@ -76,7 +78,7 @@ The Content Settings section allows you to configure the content displayed on th
 - **Labels**: Customize various text labels throughout the application
 - **About Page Content**: Customize the content of the About page
 
-### Logo Settings
+### Logo Settings {#logo-settings}
 
 The Logo Settings section allows you to customize the logo displayed in the radar:
 
@@ -84,7 +86,7 @@ The Logo Settings section allows you to customize the logo displayed in the rada
 - **Logo Preview**: Preview how your logo will appear
 - **Show App Name**: Toggle whether to show the application name next to the logo on subpages
 
-### Chart Data
+### Chart Data {#chart-data}
 
 The Chart Data section allows you to import and export radar data:
 
@@ -95,7 +97,9 @@ The Chart Data section allows you to import and export radar data:
 
 Now that you understand the overall structure of the Settings Page, you can explore each section in more detail:
 
-- [Configuration](../configuration/) - Detailed information about each configuration option
-- [Visual Customization](../customization/) - How to customize the visual appearance of your radar
-- [Managing Items](../managing-items/) - How to add, edit, and manage technology items
-- [Import & Export](../import-export/) - How to import and export radar data 
+{{< cards >}}
+  {{< card link="../configuration/" title="Configuration" icon="cog" >}}
+  {{< card link="../customization/" title="Visual Customization" icon="play" >}}
+  {{< card link="../managing-items/" title="Managing Items" icon="document-add" >}}
+  {{< card link="../import-export/" title="Import & Export" icon="arrow-right" >}}
+{{< /cards >}} 
