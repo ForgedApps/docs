@@ -15,15 +15,10 @@ The Settings Page is accessible from the admin interface and allows you to custo
 
 The Settings Page is organized into several sections, each controlling different aspects of the radar:
 
-{{< cards >}}
-{{< card link="#display-settings" title="Display Settings" icon="eye" description="Control how the radar is displayed to users" />}}
-
-{{< card link="#content-settings" title="Content Settings" icon="document-text" description="Configure the content displayed on the radar" />}}
-
-{{< card link="#logo-settings" title="Logo Settings" icon="photo" description="Customize the logo and branding" />}}
-
-{{< card link="#chart-data" title="Chart Data" icon="chart-pie" description="Import and export radar data" />}}
-{{< /cards >}}
+- **Display Settings**: Control how the radar is displayed to users
+- **Content Settings**: Configure the content displayed on the radar
+- **Logo Settings**: Customize the logo and branding
+- **Chart Data**: Import and export radar data
 
 ## Configuration Data Structure
 

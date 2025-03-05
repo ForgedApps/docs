@@ -24,10 +24,6 @@ A Technology Radar is a visualization tool that helps organizations track and co
 
 This documentation is organized into several sections:
 
-{{< cards >}}
-{{< card link="getting-started" title="Getting Started" icon="rocket-launch" description="Installation and basic setup instructions" />}}
-
-{{< card link="user-guide" title="User Guide" icon="user" description="How to use the radar as an end user" />}}
-
-{{< card link="admin-guide" title="Admin Guide" icon="cog-6-tooth" description="How to configure and manage the radar" />}}
-{{< /cards >}}
+- [Getting Started](getting-started): Installation and basic setup instructions
+- [User Guide](user-guide): How to use the radar as an end user
+- [Admin Guide](admin-guide): How to configure and manage the radar
