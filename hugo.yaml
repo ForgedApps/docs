@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: Tech Radar for Atlassian Compass
+title: Forged Apps
 
 # Use the theme from the submodule
 theme: hextra
@@ -22,7 +22,7 @@ menu:
     - name: About
       pageRef: /about
       weight: 2
-    - name: Contact ↗
+    - name: Forged Apps ↗
       url: "https://forgedapps.com"
       weight: 3
     - name: Search
@@ -37,16 +37,17 @@ menu:
 
 params:
   navbar:
-    displayTitle: true
-    displayLogo: false
-
-  # Disable PWA features
-  disablePWA: true
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: "forgedapps-logo-light.png"
+      dark: "forgedapps-logo-dark.png"
+      alt: "Forged Apps Logo"
+      width: 124
 
   footer:
-    displayCopyright: true
-    displayPoweredBy: true
-    copyright: "© 2024 Tech Radar for Compass"
+    displayCopyright: false
+    displayPoweredBy: false
 
   editURL:
     enable: true
