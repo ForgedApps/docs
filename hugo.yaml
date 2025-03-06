@@ -40,6 +40,9 @@ params:
     displayTitle: true
     displayLogo: false
 
+  # Disable PWA features
+  disablePWA: true
+
   footer:
     displayCopyright: true
     displayPoweredBy: true
