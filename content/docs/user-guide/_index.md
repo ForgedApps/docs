@@ -3,8 +3,6 @@ title: User Guide
 weight: 2
 ---
 
-# User Guide
-
 This section covers how to use the Tech Radar for Compass as an end user. It explains the radar visualization, how to navigate the interface, and how to interpret the information presented.
 
 ## What You'll Learn

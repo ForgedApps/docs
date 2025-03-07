@@ -3,8 +3,6 @@ title: Documentation
 next: getting-started
 ---
 
-# Tech Radar for Compass Documentation
-
 Welcome to the Tech Radar for Compass documentation. This guide will help you understand, configure, and use the Tech Radar for Compass application.
 
 {{< callout type="info" >}}

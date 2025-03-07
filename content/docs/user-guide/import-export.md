@@ -3,8 +3,6 @@ title: Import & Export
 weight: 6
 ---
 
-# Import & Export
-
 This page explains how to import and export data from the Tech Radar for Compass.
 
 ## Importing Data

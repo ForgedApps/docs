@@ -3,8 +3,6 @@ title: Interpreting Items
 weight: 4
 ---
 
-# Interpreting Technology Items
-
 This page explains how to understand and interpret the technology items displayed on the Tech Radar for Compass.
 
 ## Item Representation

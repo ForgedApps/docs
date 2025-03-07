@@ -3,8 +3,6 @@ title: Getting Started
 weight: 1
 ---
 
-# Getting Started with Tech Radar for Compass
-
 This guide will help you get started with Tech Radar for Compass, from installation to basic configuration.
 
 ## Prerequisites

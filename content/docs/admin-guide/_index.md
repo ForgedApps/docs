@@ -3,8 +3,6 @@ title: Admin Guide
 weight: 3
 ---
 
-# Admin Guide
-
 This section covers how to administer and configure the Tech Radar for Compass. It explains the administrative interface, configuration options, and how to manage radar content.
 
 ## What You'll Learn

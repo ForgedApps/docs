@@ -3,8 +3,6 @@ title: Navigating the Interface
 weight: 2
 ---
 
-# Navigating the Radar Interface
-
 This page explains how to navigate and interact with the Tech Radar for Compass interface.
 
 ## Main Sections

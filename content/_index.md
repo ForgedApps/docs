@@ -33,6 +33,7 @@ layout: hextra-home
     subtitle="Visually monitor your technology landscape evolution through different adoption stages over time"
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 60% 90%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
+    link="docs"
   >}}
   {{< hextra/feature-card
     title="Backstage Sync for Compass"

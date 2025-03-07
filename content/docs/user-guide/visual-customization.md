@@ -3,8 +3,6 @@ title: Visual Customization
 weight: 5
 ---
 
-# Visual Customization
-
 This page explains how to customize the visual appearance of the Tech Radar for Compass.
 
 ## Customizing Colors

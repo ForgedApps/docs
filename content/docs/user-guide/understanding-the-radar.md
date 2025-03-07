@@ -3,8 +3,6 @@ title: Understanding the Radar
 weight: 1
 ---
 
-# Understanding the Technology Radar
-
 The Technology Radar is a visualization tool that helps organizations track and communicate their technology landscape. This page explains the key components of the radar and how to interpret them.
 
 ## Radar Structure

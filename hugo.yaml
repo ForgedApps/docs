@@ -16,7 +16,7 @@ markup:
 
 menu:
   main:
-    - name: Docs
+    - name: Tech Radar
       pageRef: /docs
       weight: 1
     - name: About
@@ -46,8 +46,10 @@ params:
       width: 124
 
   footer:
+    enable: true
     displayCopyright: false
     displayPoweredBy: false
+    width: "normal"
 
   editURL:
     enable: true

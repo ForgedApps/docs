@@ -3,8 +3,6 @@ title: Configuration
 weight: 1
 ---
 
-# Configuring the Tech Radar
-
 This page explains how to configure the Tech Radar for Compass using the Settings page in the admin interface.
 
 {{< callout type="info" >}}

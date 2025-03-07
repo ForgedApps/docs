@@ -3,8 +3,6 @@ title: Filtering and Searching
 weight: 3
 ---
 
-# Filtering and Searching
-
 This page explains how to filter and search for specific technologies in the Tech Radar for Compass.
 
 ## Search Functionality
