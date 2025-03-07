@@ -26,6 +26,11 @@ alwaysApply: false
 - GitHub edit integration enabled
 - System-based theme preference
 
+## Image References
+- All images should be placed in the `/static/images/` directory
+- Images should be referenced in markdown and shortcodes using the path `/images/image.png`
+- Do not use @ symbol or other prefixes when referencing images 
+
 ## Content Structure
 ```
 .

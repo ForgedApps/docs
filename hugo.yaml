@@ -55,3 +55,13 @@ params:
   theme:
     displayToggle: false  # Disable the default theme toggle
     default: system
+
+  comments:
+    enable: true
+    type: giscus
+
+    giscus:
+      repo: ForgedApps/docs
+      repoId: R_kgDOODVB6A
+      category: General
+      categoryId: DIC_kwDOODVB6M4CnrRk
