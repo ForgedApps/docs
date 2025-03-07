@@ -17,7 +17,7 @@ markup:
 menu:
   main:
     - name: Tech Radar
-      pageRef: /tech-radar
+      pageRef: /docs/tech-radar
       weight: 1
     - name: About
       pageRef: /about

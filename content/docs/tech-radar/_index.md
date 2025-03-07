@@ -5,6 +5,8 @@ next: getting-started
 
 Welcome to the Tech Radar for Compass documentation. This guide will help you understand, configure, and use the Tech Radar for Compass application.
 
+ <img src="/images/tech-radar-overview.png" alt="Tech Radar Overview" class="hx-w-full hx-rounded-lg hx-shadow-lg">
+ 
 {{< callout type="info" >}}
 Tech Radar for Compass is based on the [AOE Technology Radar](https://www.aoe.com/techradar/), a tool for visualizing and tracking technology adoption.
 {{< /callout >}}
