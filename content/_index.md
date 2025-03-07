@@ -51,7 +51,7 @@ The Tech Radar for Compass extends the AOE Technology Radar with additional feat
 <div class="hx-mt-6"></div>
 
 {{< cards cols="3" >}}
-  {{< card link="tech-radar/admin-guide/getting-started" title="Getting Started" icon="check" >}}
-  {{< card link="tech-radar/user-guide" title="User Guide" icon="user" >}}
-  {{< card link="tech-radar/admin-guide" title="Admin Guide" icon="cog" >}}
+  {{< card link="docs/tech-radar/admin-guide/getting-started" title="Getting Started" icon="check" >}}
+  {{< card link="docs/tech-radar/user-guide" title="User Guide" icon="user" >}}
+  {{< card link="docs/tech-radar/admin-guide" title="Admin Guide" icon="cog" >}}
 {{< /cards >}}
