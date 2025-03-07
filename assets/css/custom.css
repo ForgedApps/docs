@@ -1,0 +1,32 @@
+/* Custom styles for Forged Apps */
+
+/* Make the cards display in a row using flexbox instead of grid */
+.hextra-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+/* Ensure each card takes appropriate width */
+.hextra-card {
+  flex: 1;
+  min-width: 200px;
+}
+
+/* Specific styling for the card icons in the homepage */
+.hextra-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Custom footer styles */
+.hextra-custom-footer {
+  border-top: 1px solid #e5e7eb;
+}
+
+.dark .hextra-custom-footer {
+  border-top: 1px solid #2d2d2d;
+} 
