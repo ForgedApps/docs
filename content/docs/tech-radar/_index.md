@@ -1,5 +1,5 @@
 ---
-title: Tech Radar for Cmopass
+title: Tech Radar for Compass
 next: getting-started
 ---
 
