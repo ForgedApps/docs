@@ -1,5 +1,5 @@
 ---
-title: Documentation
+title: Tech Radar
 next: getting-started
 ---
 
@@ -23,7 +23,7 @@ A Technology Radar is a visualization tool that helps organizations track and co
 This documentation is organized into several sections:
 
 {{< cards >}}
-  {{< card link="getting-started" title="Getting Started" icon="check" >}}
+  {{< card link="admin-guide/getting-started" title="Getting Started" icon="check" >}}
   {{< card link="user-guide" title="User Guide" icon="user" >}}
   {{< card link="admin-guide" title="Admin Guide" icon="cog" >}}
 {{< /cards >}}

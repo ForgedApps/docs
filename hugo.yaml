@@ -17,14 +17,11 @@ markup:
 menu:
   main:
     - name: Tech Radar
-      pageRef: /docs
+      pageRef: /tech-radar
       weight: 1
     - name: About
       pageRef: /about
       weight: 2
-    - name: Forged Apps ↗
-      url: "https://forgedapps.com"
-      weight: 3
     - name: Search
       weight: 4
       params:

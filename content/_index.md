@@ -33,7 +33,7 @@ layout: hextra-home
     subtitle="Visually monitor your technology landscape evolution through different adoption stages over time"
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 60% 90%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
-    link="docs"
+    link="tech-radar"
   >}}
   {{< hextra/feature-card
     title="Backstage Sync for Compass"
@@ -51,14 +51,7 @@ The Tech Radar for Compass extends the AOE Technology Radar with additional feat
 <div class="hx-mt-6"></div>
 
 {{< cards cols="3" >}}
-  {{< card link="docs/getting-started" title="Getting Started" icon="check" >}}
-  {{< card link="docs/user-guide" title="User Guide" icon="user" >}}
-  {{< card link="docs/admin-guide" title="Admin Guide" icon="cog" >}}
-{{< /cards >}}
-
-## Explore
-
-{{< cards cols="2" >}}
-  {{< card link="docs" title="Documentation" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
+  {{< card link="tech-radar/admin-guide/getting-started" title="Getting Started" icon="check" >}}
+  {{< card link="tech-radar/user-guide" title="User Guide" icon="user" >}}
+  {{< card link="tech-radar/admin-guide" title="Admin Guide" icon="cog" >}}
 {{< /cards >}}

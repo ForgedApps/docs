@@ -17,8 +17,11 @@ The position, shape, and color of a blip provide important information about a t
 
 The shape of a blip indicates its status:
 
+{{< figure src="/images/blip-shapes.png" alt="Blip Shapes" class="hx-my-4" >}}
+
 - **Circle** - Unchanged status since the last radar update
 - **Triangle** - New or moved since the last radar update (has the "new" or "changed" flag)
+- **Diamond** - Recently changed in the most recent radar update
 
 ### Blip Colors
 
@@ -38,6 +41,8 @@ The position of a blip indicates:
 ## Item Details
 
 When you click on a blip or item in the list, you'll see detailed information about the technology.
+
+{{< figure src="/images/item-details.png" alt="Item Details" class="hx-my-4" >}}
 
 ### Basic Information
 
