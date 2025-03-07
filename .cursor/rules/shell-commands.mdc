@@ -1,0 +1,34 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+ # Shell Command Configuration Rule
+This rule defines which shell to use and what types of commands can be executed automatically.
+
+## Shell Configuration
+- Default shell: PowerShell
+- Location: System PowerShell
+
+## Allowed Command Types
+The following command types are allowed for automatic execution:
+- Compilation commands
+- Git commands
+- Yarn commands
+- Other safe commands
+
+## Configuration
+```json
+{
+    "shell": "powershell",
+    "shellCommands": {
+        "compilation": true,
+        "git": true,
+        "yarn": true,
+        "safe": true
+    }
+}
+```
+
+## File Pattern
+*.ps1, *.cmd, *.bat

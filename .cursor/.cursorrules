@@ -1,1 +1,0 @@
-{"shell": "powershell", "shellCommands": {"compilation": true, "git": true, "yarn": true, "safe": true}}
