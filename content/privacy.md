@@ -3,6 +3,10 @@ title: Privacy Policy
 layout: about
 ---
 
+<div style="width: 100%; overflow: hidden; margin-bottom: 2rem; height: 350px;">
+  <img src="/images/forging_apps.png" alt="Forged Apps Banner" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+</div>
+
 ## Introduction
 
 Forged Apps LLC ("we," "our," or "us") is committed to protecting your privacy and ensuring the security of information related to your use of our services. This Privacy Policy outlines our practices regarding data collection, use, and protection, with an emphasis on collecting only what is strictly necessary for providing and improving our services.
@@ -68,13 +72,10 @@ We may update this Privacy Policy to reflect changes in our practices or for leg
 
 ## Contact Us
 
-If you have questions about our Privacy Policy or security practices, or if you wish to exercise any of your data rights, you can contact us at:
-
-Forged Apps LLC  
-Email: privacy@forgedapps.com
+If you have questions about our Privacy Policy or security practices, or if you wish to exercise any of your data rights, you can contact us at support@forgedapps.com
 
 ## Legal Compliance
 
 This Privacy Policy complies with applicable data protection laws including state privacy laws and industry standards. We are committed to protecting your privacy rights and maintaining transparency about our data practices.
 
-*Last Updated: March 6, 2025*
+*Last Updated: March 7, 2025*
