@@ -118,10 +118,7 @@ Consider:
 
 ## Need Help?
 
-If you need assistance:
-
-1. Check the [documentation](/docs)
-3. Contact [support](mailto:support@forgedapps.com)
+If you need additional assistance, please contact [support](mailto:support@forgedapps.com)
 
 {{< callout type="info" >}}
 Remember: A well-maintained radar becomes more valuable over time as it reflects your organization's technology journey.

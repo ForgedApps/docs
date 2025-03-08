@@ -132,5 +132,5 @@ You can customize various text elements:
 
 After customizing the appearance:
 
-1. [Set up data management](/docs/admin-guide/data-management/)
-2. [Start managing items](/docs/admin-guide/managing-items/) 
+1. [Set up data management](/docs/tech-radar/admin-guide/data-management/)
+2. [Start managing items](/docs/tech-radar/admin-guide/managing-items/) 

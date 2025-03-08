@@ -44,11 +44,7 @@ Indicators showing the state of items (e.g., "New", "Changed", "Default")
 
 ## Getting Help
 
-If you need additional assistance:
-
-1. Check the [Troubleshooting](/docs/troubleshooting) section
-2. Visit our [Community Forum](https://community.compass.com)
-3. Contact [Support](mailto:support@compass.com)
+If you need additional assistance, please contact [support](mailto:support@forgedapps.com)
 
 {{< callout type="info" >}}
 Remember to back up your configuration before making significant changes to your radar setup.

@@ -139,6 +139,5 @@ Archiving an item will not delete it. It will no longer be visible on the radar,
 
 After adding and configuring items:
 
-1. [Customize the radar's appearance](/docs/admin-guide/customization/)
-2. [Configure feature toggles](/docs/admin-guide/feature-toggles/)
-3. [Set up data management](/docs/admin-guide/data-management/) 
+1. [Customize the radar's appearance](/docs/tech-radar/admin-guide/customization/)
+2. [Configure data management](/docs/tech-radar/admin-guide/data-management/)

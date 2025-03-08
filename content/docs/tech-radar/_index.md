@@ -1,6 +1,6 @@
 ---
 title: Tech Radar for Compass
-next: getting-started
+next: /docs/tech-radar/admin-guide/getting-started
 ---
 
 Welcome to the Tech Radar for Compass documentation. This guide will help you understand, configure, and use the Tech Radar for Compass application.
