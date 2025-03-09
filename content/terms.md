@@ -79,6 +79,24 @@ TO THE FULLEST EXTENT PERMITTED BY LAW, FORGED APPS SHALL NOT BE LIABLE FOR ANY 
 
 You agree to indemnify and hold harmless Forged Apps and its officers, directors, employees, and agents from any claims, damages, losses, liabilities, and expenses arising from your use of the Services or violation of these Terms.
 
+## Service Level Agreement
+
+### Service Performance
+- Target system uptime of 99% outside of scheduled maintenance windows
+- Scheduled maintenance windows will be communicated in advance whenever possible
+- User interface and API operations are optimized for efficient performance
+
+### Business Continuity
+- Regular system backups are maintained
+- Recovery procedures are in place to restore service in the event of disruption
+
+### Support Services
+- Support Hours: Monday through Friday, 9:00 AM to 5:00 PM Pacific Time (PT), excluding U.S. federal holidays
+- Support requests are handled through our ticketing system and prioritized based on severity and impact
+- Support channels:
+  - Email: support@forgedapps.com
+  - Support portal (for paid subscribers)
+
 ## Changes to Terms
 
 We may modify these Terms at any time. We will notify users of material changes through our Services or via email. Your continued use of the Services after such modifications constitutes acceptance of the updated Terms.
