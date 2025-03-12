@@ -31,7 +31,7 @@ layout: single
     </div>
     <div class="pricing-features">
       <ul>
-        <li>Everything in Free</li>
+        <li>Free Plan +</li>
         <li>Unlimited Radar Items</li>
         <li>Email Support</li>
       </ul>
@@ -50,7 +50,7 @@ layout: single
     </div>
     <div class="pricing-features">
       <ul>
-        <li>Everything in Basic</li>
+        <li>Basic Plan +</li>
         <li>Compass Radar Items</li>
         <li>Repo Data Sync</li>        
         <li>Advanced Analytics</li>
