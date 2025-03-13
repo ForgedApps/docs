@@ -1,6 +1,6 @@
 ---
 title: Pricing
-layout: single
+layout: default
 ---
 
 <div class="pricing-container">
@@ -79,7 +79,7 @@ layout: single
 
 <details>
 <summary>When will the Pro plan be available?</summary>
-<p>We're currently working on the Pro plan which will allow Compass components to be visible on the radar. Join our waitlist to be notified when it becomes available.</p>
+<p>We're currently working on the Pro plan which will allow Compass components to be visible on the radar.</p>
 </details>
 
 <details>
