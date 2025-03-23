@@ -52,9 +52,7 @@ layout: default
       <ul>
         <li>Basic Plan +</li>
         <li>Compass Radar Items</li>
-        <li>Repo Data Sync</li>        
-        <li>Advanced Analytics</li>
-        <li>API Access</li>
+        <li>Confluence Data Sync</li>     
         <li>Priority Support</li>
       </ul>
     </div>
