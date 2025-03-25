@@ -41,6 +41,7 @@ Limited external data transmission only for:
 - No personal information is collected or stored
 - Analytics data is anonymized and aggregated
 - Full compliance with GDPR and other privacy regulations
+- [Data Processing Agreement](/data-processing-agreement)
 
 ## Access Control
 
