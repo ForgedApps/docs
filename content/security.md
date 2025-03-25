@@ -60,6 +60,7 @@ Limited external data transmission only for:
 - Compliance with Atlassian's security requirements
 - Regular security assessments and reviews
 - Adherence to industry best practices
+- [Cloud Security Alliance CAIQ Assessment](/security-assessment)
 
 ### Certifications
 - Leverages Atlassian's platform certifications
