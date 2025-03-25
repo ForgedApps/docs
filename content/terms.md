@@ -61,7 +61,7 @@ Your use of our Services is also governed by our [Privacy Policy](/privacy). By 
 ### Licensing
 - Our Services may require a paid subscription
 - Pricing details are available on our dedicated [Pricing](/pricing) page
-- All payments are securely processed directly through our payment provider, [Paddle](https://paddle.com/)
+- All payments are securely processed directly through our payment provider, [Stripe](https://stripe.com/)
 
 ### Refunds
 - Refund requests are handled according to Atlassian Marketplace policies
