@@ -22,7 +22,7 @@ layout: hextra-home
 </div>
 
 <div class="hx-mb-12">
-{{< hextra/hero-button text="Get Started" link="/docs/tech-radar" >}}
+{{< hextra/hero-button text="Go To Atlassian Marketplace" link="https://marketplace.atlassian.com/1237368" >}}
 </div>
 
 <div class="hx-w-full">
