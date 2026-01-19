@@ -1,0 +1,11 @@
+{
+  "title": "Admin Guide",
+  "pages": [
+    "getting-started",
+    "radar-configuration",
+    "managing-items",
+    "customization",
+    "data-management"
+  ],
+  "defaultOpen": true
+}

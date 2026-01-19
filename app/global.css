@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'fumadocs-ui/style.css';
+
+:root {
+  --fd-primary: 239 84% 67%;
+  --fd-background: 0 0% 100%;
+  --fd-foreground: 0 0% 3.9%;
+  --fd-muted: 0 0% 96.1%;
+  --fd-muted-foreground: 0 0% 45.1%;
+  --fd-accent: 239 84% 96%;
+  --fd-accent-foreground: 239 84% 67%;
+}
+
+.dark {
+  --fd-primary: 239 84% 67%;
+  --fd-background: 0 0% 3.9%;
+  --fd-foreground: 0 0% 98%;
+  --fd-muted: 0 0% 14.9%;
+  --fd-muted-foreground: 0 0% 63.9%;
+  --fd-accent: 239 84% 15%;
+  --fd-accent-foreground: 239 84% 67%;
+}
+
+/* Pricing cards */
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem 0;
+}
+
+.pricing-card {
+  position: relative;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  padding: 2rem;
+  min-width: 280px;
+  max-width: 340px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.dark .pricing-card {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+.pricing-card-highlighted {
+  border-color: #6366f1;
+  border-width: 2px;
+  transform: scale(1.02);
+}
+
+.pricing-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-price {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #6366f1;
+}
+
+.pricing-period {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.pricing-features {
+  flex: 1;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pricing-features li {
+  padding: 0.5rem 0;
+  color: #4b5563;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.pricing-features li::before {
+  content: '\2713';
+  color: #22c55e;
+  font-weight: bold;
+}
+
+.dark .pricing-features li {
+  color: #9ca3af;
+}
+
+.pricing-cta {
+  text-align: center;
+}
+
+.pricing-button {
+  display: inline-block;
+  background: #6366f1;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.pricing-button:hover {
+  background: #4f46e5;
+}
+
+.pricing-button-disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+.pricing-badge {
+  position: absolute;
+  top: -0.75rem;
+  right: 1rem;
+  background: #f59e0b;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* FAQ Accordion */
+details {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+
+.dark details {
+  border-color: #374151;
+}
+
+details summary {
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  background: #f9fafb;
+  transition: background 0.2s;
+}
+
+.dark details summary {
+  background: #1f2937;
+}
+
+details summary:hover {
+  background: #f3f4f6;
+}
+
+.dark details summary:hover {
+  background: #374151;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.dark details[open] summary {
+  border-bottom-color: #374151;
+}
+
+details p {
+  padding: 1rem;
+  margin: 0;
+  color: #4b5563;
+}
+
+.dark details p {
+  color: #9ca3af;
+}
+
+/* Sidebar folder titles - make them bold and white in dark mode */
+/* Target folder links (they have w-full class and contain chevron SVG) */
+a.w-full[href$="/admin-guide/"],
+a.w-full[href$="/user-guide/"] {
+  font-weight: 600 !important;
+  color: hsl(var(--fd-foreground)) !important;
+}
+
+.dark a.w-full[href$="/admin-guide/"],
+.dark a.w-full[href$="/user-guide/"] {
+  color: #fff !important;
+}

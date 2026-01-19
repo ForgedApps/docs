@@ -1,0 +1,10 @@
+{
+  "title": "User Guide",
+  "pages": [
+    "understanding-the-radar",
+    "navigating-the-interface",
+    "filtering-and-searching",
+    "interpreting-items"
+  ],
+  "defaultOpen": true
+}

@@ -1,96 +1,95 @@
-# Forged Apps Documentation
+# Forged Apps Website
 
-This repository contains the documentation for Forged Apps, built using [Hugo](https://gohugo.io/) with the [Hextra](https://github.com/imfing/hextra) theme. The site is designed to provide comprehensive documentation and technical insights through our Tech Radar and other resources.
+The official website for Forged Apps, built with [Next.js](https://nextjs.org/) and [Fumadocs](https://fumadocs.vercel.app/).
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
-- [Hugo Extended](https://gohugo.io/installation/) (latest version recommended)
-- [Git](https://git-scm.com/downloads)
-- [Go](https://golang.org/dl/) (for running Hugo)
+- [Node.js](https://nodejs.org/) (v18 or later)
+- [npm](https://www.npmjs.com/) or [pnpm](https://pnpm.io/)
 
 ### Local Development
 
-1. Clone the repository with submodules:
+1. Clone the repository:
    ```bash
-   git clone --recurse-submodules https://github.com/your-org/your-repo.git
-   cd your-repo
+   git clone https://github.com/forged-apps/website.git
+   cd website
    ```
 
-2. Start the Hugo development server:
+2. Install dependencies:
    ```bash
-   hugo server
+   npm install --legacy-peer-deps
    ```
 
-3. Open your browser and visit http://localhost:1313
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-## 📁 Repository Structure
+4. Open http://localhost:3000 in your browser
+
+## Repository Structure
 
 ```
 .
-├── content/          # Main content directory
-│   ├── tech-radar/   # Tech Radar section
-│   └── about/        # About section
-├── static/           # Static assets
-│   └── images/       # Images including logos
-├── layouts/          # Custom layout overrides
-├── assets/          # Asset files
-├── i18n/            # Internationalization
-└── themes/          # Theme submodule
+├── app/                    # Next.js App Router pages
+│   ├── page.tsx           # Homepage
+│   ├── tech-radar/        # Tech Radar product pages
+│   │   ├── docs/          # Documentation pages
+│   │   └── pricing/       # Pricing page
+│   ├── mcpflare/          # MCPflare product page
+│   └── legal/             # Legal pages
+├── content/               # MDX documentation content
+│   └── docs/              # Tech Radar documentation
+├── components/            # React components
+│   ├── analytics/         # Google Analytics, Featurebase
+│   └── ...
+├── lib/                   # Utility functions
+├── public/                # Static assets
+│   └── images/           # Images
+└── source.config.ts       # Fumadocs configuration
 ```
 
-## 🤝 Contributing
+## Scripts
 
-We welcome contributions to improve our documentation! Here's how you can help:
+- `npm run dev` - Start development server
+- `npm run build` - Build for production (static export)
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-1. **Fork** the repository
-2. Create a new **branch** for your changes
-3. Make your changes following our documentation guidelines
-4. Submit a **Pull Request** with a clear description of your changes
+## Deployment
 
-### Documentation Guidelines
+This site is deployed automatically to GitHub Pages on push to the `main` branch.
 
-- Place all images in the `/static/images/` directory
-- Reference images using the path `/images/image.png`
-- Use supported Hextra theme shortcodes for enhanced content:
-  - Callout
-  - Cards
-  - Details
-  - FileTree
-  - Icon
-  - Steps
-  - Tabs
+### Manual Deployment
 
-### Content Creation
+1. Build the static site:
+   ```bash
+   npm run build
+   ```
 
-1. Create new content files in the appropriate section under `content/`
-2. Use Markdown format with front matter
-3. Follow the existing structure and style
-4. Test your changes locally before submitting
+2. The static files are generated in the `out/` directory
 
-## 🛠 Technical Details
+## Tech Stack
 
-- Built with Hugo Extended version
-- Uses Hextra theme (configured as a submodule)
-- System-based theme preference
-- GitHub edit integration enabled
-- Syntax highlighting with classes enabled
-- Raw HTML in Markdown supported
+- **Framework:** Next.js 14 (App Router)
+- **Documentation:** Fumadocs
+- **Styling:** Tailwind CSS
+- **Analytics:** Google Analytics
+- **Support:** Featurebase
 
-## 📝 License
+## Contributing
 
-This project is licensed under the terms specified in the [LICENSE](LICENSE) file.
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a Pull Request
 
-## 🤔 Need Help?
+## License
 
-If you have questions or run into issues:
-
-1. Check existing GitHub issues
-2. Create a new issue with a clear description
-3. Provide steps to reproduce any problems
-4. Reach out to support@forgedapps.com
+See [LICENSE](LICENSE) for details.
 
 ---
 
-Built with ❤️ using [Hugo](https://gohugo.io/) and [Hextra](https://github.com/imfing/hextra) 
+Built with Next.js and Fumadocs

@@ -1,7 +1,29 @@
-# Hugo output
-public/
-resources/
-.hugo_build.lock
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Fumadocs generated
+.source/
+
+# Build
+*.tsbuildinfo
+next-env.d.ts
+
+# Debug
+npm-debug.log*
+
+# Local env files
+.env*.local
 
 # Editor
 .vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
