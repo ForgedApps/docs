@@ -84,7 +84,7 @@ npx tsc --noEmit
 Use the Node.js validator for cross-platform compatibility:
 
 ```bash
-node .claude/validate-env.js
+node validate-env.js
 ```
 
 This script checks all key routes:
@@ -98,10 +98,10 @@ This script checks all key routes:
 For Unix-like environments or Windows with Git Bash/WSL:
 
 ```bash
-bash .claude/test-utils.sh
+bash test-utils.sh
 ```
 
-See `validate-env.js` and `test-utils.sh` for implementation details.
+See `validate-env.js` and `test-utils.sh` in the project root for implementation details.
 
 ## Integration with Claude Code
 

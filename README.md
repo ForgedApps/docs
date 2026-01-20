@@ -58,6 +58,16 @@ The official website for Forged Apps, built with [Next.js](https://nextjs.org/) 
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint
 
+## Testing
+
+Validate your local development environment:
+
+```bash
+node validate-env.js
+```
+
+This checks that the dev server is running and all routes are accessible. See `validate-env.js` and [.claude/testing.md](.claude/testing.md) for details.
+
 ## Deployment
 
 This site is deployed automatically to GitHub Pages on push to the `main` branch.

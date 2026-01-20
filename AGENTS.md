@@ -88,13 +88,13 @@ Before implementing any new functionality, AI agents MUST validate the local dev
 Run this command before starting work:
 
 ```bash
-node .claude/validate-env.js
+node validate-env.js
 ```
 
 Or use the bash utilities:
 
 ```bash
-bash .claude/test-utils.sh
+bash test-utils.sh
 ```
 
 ### Testing Workflow
@@ -302,7 +302,7 @@ Before marking work as complete:
 
 ```bash
 # 1. Validate environment
-node .claude/validate-env.js
+node validate-env.js
 
 # 2. Make changes (edit files)
 

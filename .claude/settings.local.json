@@ -15,7 +15,8 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git ls-tree:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(git mv:*)"
     ]
   }
 }
