@@ -11,7 +11,8 @@
       "Bash(npm pkg:*)",
       "Bash(timeout 30 npm run dev:*)",
       "Bash(curl:*)",
-      "Bash(taskkill:*)"
+      "Bash(taskkill:*)",
+      "Bash(git add:*)"
     ]
   }
 }
