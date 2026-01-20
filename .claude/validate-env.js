@@ -28,6 +28,9 @@ function log(message, color = 'reset') {
 function checkUrl(url, description) {
   return new Promise((resolve) => {
     const req = http.get(url, { timeout: TIMEOUT }, (res) => {
+      // Consume response body to free up memory and properly close connection
+      res.resume();
+
       const success = res.statusCode >= 200 && res.statusCode < 400;
 
       if (success) {
@@ -59,7 +62,11 @@ async function validateEnvironment() {
     { url: `${LOCALHOST_URL}`, description: 'Homepage' },
     { url: `${LOCALHOST_URL}/tech-radar`, description: 'Tech Radar Page' },
     { url: `${LOCALHOST_URL}/tech-radar/docs`, description: 'Docs Page' },
+    { url: `${LOCALHOST_URL}/tech-radar/pricing`, description: 'Pricing Page' },
     { url: `${LOCALHOST_URL}/mcpflare`, description: 'MCPflare Page' },
+    { url: `${LOCALHOST_URL}/legal/privacy`, description: 'Privacy Page' },
+    { url: `${LOCALHOST_URL}/legal/terms`, description: 'Terms Page' },
+    { url: `${LOCALHOST_URL}/legal/security`, description: 'Security Page' },
   ];
 
   const results = [];

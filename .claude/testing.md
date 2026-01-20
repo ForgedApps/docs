@@ -13,6 +13,12 @@ npm run dev
 
 This starts the Next.js development server on `http://localhost:3000`.
 
+### Platform Requirements
+
+- **Node.js**: v18 or later (for `validate-env.js`)
+- **curl**: For HTTP testing (usually available via Git Bash on Windows)
+- **Bash** (optional): For `test-utils.sh` - requires Git Bash, WSL, or Unix-like environment on Windows
+
 ## Testing Guidelines
 
 ### Before Creating New Functionality
@@ -73,7 +79,29 @@ npx tsc --noEmit
 
 ## Automated Validation
 
-See `validate-env.js` for automated environment validation script.
+### Cross-Platform Validator (Recommended)
+
+Use the Node.js validator for cross-platform compatibility:
+
+```bash
+node .claude/validate-env.js
+```
+
+This script checks all key routes:
+- Homepage (`/`)
+- Tech Radar (`/tech-radar`, `/tech-radar/docs`, `/tech-radar/pricing`)
+- MCPflare (`/mcpflare`)
+- Legal pages (`/legal/privacy`, `/legal/terms`, `/legal/security`)
+
+### Bash Utilities (Unix/WSL/Git Bash)
+
+For Unix-like environments or Windows with Git Bash/WSL:
+
+```bash
+bash .claude/test-utils.sh
+```
+
+See `validate-env.js` and `test-utils.sh` for implementation details.
 
 ## Integration with Claude Code
 

@@ -1,7 +1,9 @@
 #!/bin/bash
+set -euo pipefail
 
 # Test Utilities for Local Development Environment
 # This script provides utility functions for testing localhost:3000
+# REQUIREMENTS: Git Bash, WSL, or Unix-like environment on Windows
 
 # Colors for output
 RED='\033[0;31m'
