@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { withBasePath } from '@/lib/base-path';
 
 export const metadata: Metadata = {
   title: 'Pricing - Tech Radar for Compass',
@@ -14,12 +15,12 @@ export default function PricingPage() {
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <Link href="/" className="flex items-center gap-3">
             <img
-              src="/images/branding/forgedapps-logo-light.png"
+              src={withBasePath('/images/branding/forgedapps-logo-light.png')}
               alt="Forged Apps"
               className="h-8 dark:hidden"
             />
             <img
-              src="/images/branding/forgedapps-logo-dark.png"
+              src={withBasePath('/images/branding/forgedapps-logo-dark.png')}
               alt="Forged Apps"
               className="hidden h-8 dark:block"
             />
@@ -279,7 +280,7 @@ export default function PricingPage() {
           <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
             <Link href="/" className="flex items-center gap-3">
               <img
-                src="/images/branding/forgedapps-logo-dark.png"
+                src={withBasePath('/images/branding/forgedapps-logo-dark.png')}
                 alt="Forged Apps"
                 className="h-6"
               />

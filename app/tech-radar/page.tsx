@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { withBasePath } from '@/lib/base-path';
 
 export const metadata: Metadata = {
   title: 'Tech Radar for Compass',
@@ -15,12 +16,12 @@ export default function TechRadarPage() {
         <nav className="relative mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <Link href="/" className="flex items-center gap-3">
             <img
-              src="/images/branding/forgedapps-logo-light.png"
+              src={withBasePath('/images/branding/forgedapps-logo-light.png')}
               alt="Forged Apps"
               className="h-8 dark:hidden"
             />
             <img
-              src="/images/branding/forgedapps-logo-dark.png"
+              src={withBasePath('/images/branding/forgedapps-logo-dark.png')}
               alt="Forged Apps"
               className="hidden h-8 dark:block"
             />
@@ -106,7 +107,7 @@ export default function TechRadarPage() {
       <section className="bg-white py-16 dark:bg-slate-950">
         <div className="mx-auto max-w-5xl px-6">
           <img
-            src="/images/tech-radar/tech-radar-overview.png"
+            src={withBasePath('/images/tech-radar/tech-radar-overview.png')}
             alt="Tech Radar Overview"
             className="w-full rounded-lg shadow-2xl"
           />
@@ -267,7 +268,7 @@ export default function TechRadarPage() {
           <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
             <Link href="/" className="flex items-center gap-3">
               <img
-                src="/images/branding/forgedapps-logo-dark.png"
+                src={withBasePath('/images/branding/forgedapps-logo-dark.png')}
                 alt="Forged Apps"
                 className="h-6"
               />
