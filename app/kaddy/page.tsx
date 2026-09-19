@@ -160,6 +160,23 @@ export default function KaddyPage() {
             <div className="relative rounded-2xl border border-slate-200 bg-slate-50 p-8 dark:border-slate-800 dark:bg-slate-900">
               <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-orange-100 text-orange-600 dark:bg-orange-900/50 dark:text-orange-400">
                 <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
+                Talk It Through Out Loud
+              </h3>
+              <p className="mt-2 text-slate-600 dark:text-slate-400">
+                Open a live voice call with an app and just talk — interrupt it
+                mid-sentence if you need to. It&apos;s the same conversation as the
+                chat, so what you say out loud is remembered either way.
+              </p>
+            </div>
+
+            {/* Feature 3 */}
+            <div className="relative rounded-2xl border border-slate-200 bg-slate-50 p-8 dark:border-slate-800 dark:bg-slate-900">
+              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-orange-100 text-orange-600 dark:bg-orange-900/50 dark:text-orange-400">
+                <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                 </svg>
               </div>
@@ -172,55 +189,24 @@ export default function KaddyPage() {
               </p>
             </div>
 
-            {/* Feature 3 */}
-            <div className="relative rounded-2xl border border-slate-200 bg-slate-50 p-8 dark:border-slate-800 dark:bg-slate-900">
-              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-orange-100 text-orange-600 dark:bg-orange-900/50 dark:text-orange-400">
-                <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
-                One Familiar Home
-              </h3>
-              <p className="mt-2 text-slate-600 dark:text-slate-400">
-                Your reading tracker can look nothing like your meal planner. The
-                navigation and the place to talk to each assistant stay the same.
-              </p>
-            </div>
-
             {/* Feature 4 */}
             <div className="relative rounded-2xl border border-slate-200 bg-slate-50 p-8 dark:border-slate-800 dark:bg-slate-900">
               <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-amber-100 text-amber-600 dark:bg-amber-900/50 dark:text-amber-400">
                 <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
               <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
-                Keep a Way Back
+                Routines That Run Themselves
               </h3>
               <p className="mt-2 text-slate-600 dark:text-slate-400">
-                Try a new layout or add a feature, then return to an earlier version
-                if you prefer it. Your data is backed up separately from your apps.
+                Put an app on a schedule — Sunday morning, every weekday at six — and
+                its assistant does the work without you. The reply is waiting in your
+                chat when you next look.
               </p>
             </div>
 
             {/* Feature 5 */}
-            <div className="relative rounded-2xl border border-slate-200 bg-slate-50 p-8 dark:border-slate-800 dark:bg-slate-900">
-              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-amber-100 text-amber-600 dark:bg-amber-900/50 dark:text-amber-400">
-                <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
-                Ready On Any Screen
-              </h3>
-              <p className="mt-2 text-slate-600 dark:text-slate-400">
-                Open Kaddy in a browser on your phone or computer. Your apps run in
-                the cloud, so they work even when your own machine is off.
-              </p>
-            </div>
-
-            {/* Feature 6 */}
             <div className="relative rounded-2xl border border-slate-200 bg-slate-50 p-8 dark:border-slate-800 dark:bg-slate-900">
               <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-amber-100 text-amber-600 dark:bg-amber-900/50 dark:text-amber-400">
                 <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -233,6 +219,22 @@ export default function KaddyPage() {
               <p className="mt-2 text-slate-600 dark:text-slate-400">
                 Kaddy speaks MCP, so Claude and other AI assistants can create, edit,
                 and publish your apps from wherever you already work.
+              </p>
+            </div>
+
+            {/* Feature 6 */}
+            <div className="relative rounded-2xl border border-slate-200 bg-slate-50 p-8 dark:border-slate-800 dark:bg-slate-900">
+              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-amber-100 text-amber-600 dark:bg-amber-900/50 dark:text-amber-400">
+                <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
+                Keep a Way Back
+              </h3>
+              <p className="mt-2 text-slate-600 dark:text-slate-400">
+                Try a new layout or add a feature, then return to an earlier version
+                if you prefer it. Your data is backed up separately from your apps.
               </p>
             </div>
           </div>
