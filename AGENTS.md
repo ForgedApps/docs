@@ -4,7 +4,7 @@ This document provides context and guidelines for AI agents working with this co
 
 ## Project Overview
 
-This is a **Next.js 14 documentation site** for **Forged Apps**, a company that builds developer experience products. The site documents products including **Tech Radar for Compass** and **MCPflare**.
+This is a **Next.js 14 documentation site** for **Forged Apps**, a company that builds developer experience products and personal software. The site documents products including **Tech Radar for Compass**, **MCPflare**, and **Kaddy**.
 
 ### Tech Stack
 
@@ -26,6 +26,7 @@ This is a **Next.js 14 documentation site** for **Forged Apps**, a company that 
 │   │   ├── docs/          # Documentation pages
 │   │   └── pricing/       # Pricing page
 │   ├── mcpflare/          # MCPflare product page
+│   ├── kaddy/             # Kaddy product page
 │   └── legal/             # Legal pages
 ├── content/docs/          # MDX documentation content
 │   ├── admin-guide/       # Administrator documentation
@@ -133,6 +134,7 @@ npm run build
 - `/tech-radar/docs` - Documentation index
 - `/tech-radar/pricing` - Pricing page
 - `/mcpflare` - MCPflare landing page
+- `/kaddy` - Kaddy landing page
 - `/legal/privacy` - Privacy policy
 - `/legal/terms` - Terms of service
 - `/legal/security` - Security page

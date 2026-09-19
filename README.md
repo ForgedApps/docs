@@ -39,6 +39,7 @@ The official website for Forged Apps, built with [Next.js](https://nextjs.org/) 
 │   │   ├── docs/          # Documentation pages
 │   │   └── pricing/       # Pricing page
 │   ├── mcpflare/          # MCPflare product page
+│   ├── kaddy/             # Kaddy product page
 │   └── legal/             # Legal pages
 ├── content/               # MDX documentation content
 │   └── docs/              # Tech Radar documentation
