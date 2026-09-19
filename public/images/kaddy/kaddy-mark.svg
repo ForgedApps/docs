@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Kaddy square icon</title>
+  <desc id="desc">A white lowercase k and orange square on the Kaddy dark background.</desc>
+  <rect width="512" height="512" rx="72" fill="#11151e"/>
+  <text x="225" y="405" fill="#f0f2f7" font-family="Archivo, Arial, sans-serif"
+        font-size="440" font-weight="750" letter-spacing="-20" text-anchor="middle">k</text>
+  <rect x="364" y="327" width="78" height="78" fill="#cc6840"/>
+</svg>

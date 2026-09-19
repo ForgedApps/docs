@@ -29,6 +29,10 @@ export const baseOptions: BaseLayoutProps = {
       url: '/mcpflare',
     },
     {
+      text: 'Kaddy',
+      url: '/kaddy',
+    },
+    {
       text: 'GitHub',
       url: 'https://github.com/forgedapps',
       external: true,

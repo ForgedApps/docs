@@ -9,17 +9,17 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://forgedapps.com'),
   title: {
     template: '%s | Forged Apps',
-    default: 'Forged Apps - Developer Experience Products',
+    default: 'Forged Apps - Developer Tools & Personal Apps',
   },
   description:
-    'Tools that improve developer productivity. Tech Radar for Compass, MCPflare, and more.',
+    'Software built for the way you work. Tech Radar for Compass, MCPflare, Kaddy, and more.',
   icons: {
     icon: '/favicon.ico',
   },
   openGraph: {
     title: 'Forged Apps',
     description:
-      'Tools that improve developer productivity. Tech Radar for Compass, MCPflare, and more.',
+      'Software built for the way you work. Tech Radar for Compass, MCPflare, Kaddy, and more.',
     images: ['/images/branding/forgedapps-logo-light.png'],
   },
 };
