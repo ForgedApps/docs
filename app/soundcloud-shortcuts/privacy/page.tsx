@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Shortcuts for SoundCloud - Privacy Policy',
   description:
-    'Privacy policy for the Shortcuts for SoundCloud browser extension by Forged Apps LLC. No data is collected.',
+    'Privacy policy for the Shortcuts for SoundCloud browser extension by jgentes. No data is collected.',
 };
 
 export default function SoundCloudShortcutsPrivacyPage() {
@@ -16,7 +16,7 @@ export default function SoundCloudShortcutsPrivacyPage() {
 
       <h2>Summary</h2>
       <p>
-        Shortcuts for SoundCloud is a browser extension by Forged Apps LLC that adds keyboard
+        Shortcuts for SoundCloud is a browser extension that adds keyboard
         shortcuts and a now-playing panel for soundcloud.com. It does not collect, store, or
         transmit any personal data. Everything it does happens inside your browser.
       </p>
@@ -42,7 +42,7 @@ export default function SoundCloudShortcutsPrivacyPage() {
         <li>
           <strong>Your settings</strong> (shortcut behavior, notification and panel preferences)
           are stored using the browser's extension storage. If you are signed in to your browser,
-          the browser may sync these settings between your devices. Forged Apps never receives
+          the browser may sync these settings between your devices. The developer never receives
           them.
         </li>
         <li>
@@ -55,7 +55,7 @@ export default function SoundCloudShortcutsPrivacyPage() {
       <h2>What is not collected</h2>
       <p>
         The extension has no analytics, no telemetry, no accounts, no advertising, and no servers
-        operated by Forged Apps. It does not collect your listening history, your SoundCloud
+        operated by the developer. It does not collect your listening history, your SoundCloud
         account details, your browsing activity, or any identifiers.
       </p>
 
@@ -81,8 +81,8 @@ export default function SoundCloudShortcutsPrivacyPage() {
       <h2>Open source</h2>
       <p>
         The complete source code is public at{' '}
-        <a href="https://github.com/ForgedApps/soundcloud-shortcuts">
-          github.com/ForgedApps/soundcloud-shortcuts
+        <a href="https://github.com/jgentes/soundcloud-shortcuts">
+          github.com/jgentes/soundcloud-shortcuts
         </a>
         , so these statements can be verified.
       </p>
@@ -96,8 +96,8 @@ export default function SoundCloudShortcutsPrivacyPage() {
       <h2>Contact</h2>
       <p>
         Questions or concerns: open an issue at{' '}
-        <a href="https://github.com/ForgedApps/soundcloud-shortcuts/issues">
-          github.com/ForgedApps/soundcloud-shortcuts/issues
+        <a href="https://github.com/jgentes/soundcloud-shortcuts/issues">
+          github.com/jgentes/soundcloud-shortcuts/issues
         </a>
         .
       </p>
